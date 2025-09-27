@@ -1,0 +1,14 @@
+{
+  "name": "Remotion Captioning Demo DevContainer",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": ["remotion.remotion", "dbaeumer.vscode-eslint"]
+    }
+  },
+  "forwardPorts": [3000, 3001]
+}
